@@ -13,11 +13,11 @@ int main() {
   float densidade;
 
   // Área para entrada de dados
-  printf("Digite o nome da cidade: ");
+  printf("Digite o nome da cidade: \n");
   scanf("%s", nomeCidade);
-  printf("Digite a população da cidade: ");
+  printf("Digite a população da cidade: \n");
   scanf("%d", &populacao);
-  printf("Digite a área da cidade (em km²): ");
+  printf("Digite a área da cidade (em km²): \n");
   scanf("%f", &area);
   densidade = populacao / area;
 
